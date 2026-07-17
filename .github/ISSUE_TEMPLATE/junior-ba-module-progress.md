@@ -1,22 +1,25 @@
 ---
-name: Junior BA module progress
-description: Track one learning module and its evidence
-title: "Junior BA — Week XX — Module name"
+name: Business/System Analyst module progress
+description: Track one module, its artifacts, traceability and review evidence
+title: "BA/SA Track — Week XX — Module name"
 labels: []
 assignees: []
 ---
 
-## Outcome
+## Measurable outcome
 
 What must be demonstrably true by the end of this module?
 
 ## Checklist
 
-- [ ] Theory completed
-- [ ] Search terms reviewed
+- [ ] Theory reviewed
 - [ ] Practical task completed
-- [ ] Artifact committed
+- [ ] Mandatory artifact committed
+- [ ] Jira task linked
+- [ ] Confluence page updated
+- [ ] RTM or related links updated
 - [ ] Self-check completed
+- [ ] Walkthrough prepared
 - [ ] Weekly review completed
 
 ## Scores
@@ -25,13 +28,26 @@ What must be demonstrably true by the end of this module?
 - Practice /100:
 - Artifact /100:
 - Explanation /100:
+- Weighted total /100:
 
 ## Evidence
 
 - Commit:
 - Artifact:
-- Screenshot/demo:
+- Jira:
+- Confluence:
+- Demo/Postman/SQL evidence:
+
+## Consistency review
+
+- Requirements affected:
+- BPMN/UML affected:
+- Data/API/Integration affected:
+- Tests affected:
+- Open questions:
 
 ## Reflection
 
-What became clear? What still needs rework?
+- What can I now do independently?
+- What still requires review?
+- What must not be presented as production experience?
