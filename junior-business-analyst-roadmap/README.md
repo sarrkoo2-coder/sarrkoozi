@@ -1,64 +1,94 @@
-# Junior Business Analyst Roadmap
+# Business/System Analyst: Automation & Integration Track
 
-Практический курс перехода в профессию **Junior Business Analyst в IT**.
+Практический курс развития в направлении **Business/System Analyst уровня Junior+ / Middle-track**.
+
+Фокус курса:
+
+- автоматизация бизнес-процессов;
+- корпоративные системы;
+- требования и трассируемость;
+- BPMN и UML;
+- системный контекст и C4;
+- ERD, PostgreSQL и расширенный SQL;
+- HTTP, REST, JSON, OpenAPI и Postman;
+- webhooks, mapping и интеграционные паттерны;
+- NFR, безопасность, аудит и observability;
+- тестирование, UAT, migration, release и rollback;
+- небольшой работающий прототип на n8n, FastAPI, PostgreSQL и Telegram.
+
+## Позиционирование
+
+Курс рассчитан на специалиста, у которого уже есть опыт автоматизации, Bitrix24, AS-IS/TO-BE, API, SQL, n8n и взаимодействия с подразделениями.
+
+Он не гарантирует автоматическое достижение уровня Middle. Цель — систематизировать существующую практику, расширить её в сторону системного и интеграционного анализа, собрать доказательное портфолио и определить дальнейший разрыв до Middle.
+
+## Формат
 
 - Подготовительный этап: **Week 0**.
 - Основная программа: **16 недель**.
 - Нагрузка: **8–10 часов в неделю**.
-- Принцип: примерно **30% теории и 70% практики**.
-- Сквозной кейс: проектирование процесса обработки клиентских обращений для вымышленной компании **NovaDesk**.
-- Результат: готовый портфель артефактов бизнес-аналитика и измеримый трек прогресса.
+- Соотношение: **30% теории и 70% практики**.
+- Сквозной кейс: интеграционная система обработки обращений **NovaDesk**.
+- Рабочая среда: GitHub + сквозные Jira/Confluence.
+
+## NovaDesk
+
+NovaDesk принимает обращения из email, Telegram, веб-формы и CRM. В ходе курса проектируются единый intake, нормализация данных, дедупликация, статусная модель, SLA, CRM-синхронизация, API/webhooks, аудит, мониторинг, тестирование и безопасный релиз.
+
+## Карта курса
+
+| Week | Тема |
+|---:|---|
+| 0 | Диагностика и рабочий контур |
+| 1 | Problem, Goals, KPI, Scope |
+| 2 | Stakeholders и Elicitation |
+| 3 | Requirements Engineering и RTM |
+| 4 | User Stories, UML Use Cases, State Machine, Business Rules |
+| 5 | BPMN AS-IS |
+| 6 | BPMN TO-BE, SLA и Exceptions |
+| 7 | System Context и C4 Architecture |
+| 8 | ERD и Data Dictionary |
+| 9 | SQL Fundamentals |
+| 10 | JOIN, CTE, Window Functions и Data Quality |
+| 11 | REST API, OpenAPI и Postman |
+| 12 | Integrations, Sequence Diagrams и Mapping |
+| 13 | NFR, Security, Audit, Logging и Monitoring |
+| 14 | Testing, UAT, Migration, Release и Rollback |
+| 15 | Automation Prototype |
+| 16 | Final Project, Portfolio и Interview |
 
 ## С чего начать
 
-1. Прочитайте [`PROMPT.md`](PROMPT.md) — усиленную постановку задачи на обучение.
-2. Пройдите диагностику и подготовку из Week 0 в [`COURSE.md`](COURSE.md).
-3. Обновляйте таблицу в [`PROGRESS.md`](PROGRESS.md) раз в неделю.
-4. Для каждой недели создавайте GitHub Issue по шаблону `Junior BA module progress`.
-5. Складывайте результаты практики в папку `portfolio/` по структуре из [`CAPSTONE.md`](CAPSTONE.md).
-6. После обновления `data/progress.csv` запускайте:
+1. Прочитать [`COURSE.md`](COURSE.md).
+2. Завершить Week 0 и заполнить [`SKILLS_MATRIX.md`](SKILLS_MATRIX.md).
+3. Для каждой недели создавать Jira task и Confluence page.
+4. Складывать финальные версии в GitHub по структуре [`CAPSTONE.md`](CAPSTONE.md).
+5. Обновлять [`PROGRESS.md`](PROGRESS.md) и `data/progress.csv`.
+6. После обновления CSV запускать:
 
 ```bash
 python3 scripts/progress.py
 ```
 
-## Что вы освоите
+## Критерий завершения
 
-- роль бизнес-аналитика, SDLC, работа со стейкхолдерами;
-- Agile, Scrum, Kanban, backlog management;
-- Epics, User Stories, Acceptance Criteria, DoR и DoD;
-- Jira и Confluence;
-- BPMN 2.0 и draw.io;
-- Excel, SQL и основы моделирования данных;
-- Power BI, Power Query и базовый DAX;
-- PowerPoint, Visio и основы календарного планирования в MS Project;
-- low-code/BPM-платформы на примере ELMA365 и BPMSoft;
-- оформление кейса, защита решения и подготовка к собеседованию.
+- завершён Week 0 и обязательные Week 1–16;
+- средняя оценка не ниже 70/100;
+- обязательные артефакты собраны и связаны через RTM;
+- прототип работает end-to-end в ограниченном scope;
+- проект можно защитить за 10–12 минут;
+- сформулирован реалистичный дальнейший план развития.
 
-## Критерий завершения курса
+## Факультативы
 
-Курс считается завершённым, когда:
-
-- закрыт подготовительный Week 0 и минимум 14 из 16 основных недель;
-- выполнены все обязательные артефакты итогового проекта;
-- средняя оценка самопроверки не ниже 70%;
-- итоговый кейс можно объяснить за 7–10 минут без чтения с листа;
-- в репозитории есть понятная история изменений и еженедельные ретроспективы.
-
-## Доступность инструментов
-
-На момент подготовки курса Jira и Confluence имеют бесплатные облачные планы для небольших команд; draw.io доступен бесплатно; Power BI Desktop распространяется бесплатно для создания локальных отчётов. ELMA365 предоставляет ограниченную по времени демоверсию, BPMSoft — демо и учебные материалы. MS Project и Visio могут требовать лицензию, поэтому для отработки базовых навыков допустимы ProjectLibre и draw.io с последующим переносом терминологии в продукты Microsoft.
-
-### Важно для macOS
-
-Power BI Desktop является Windows-приложением. На Mac mini практический модуль следует проходить в Windows-виртуальной машине, через удалённый Windows-компьютер или с частичным использованием Power BI Service. Для полноценной отработки Power Query, модели данных и DAX предпочтительна именно Windows-среда.
+Обязательная программа не зависит от Power BI, ELMA365 или BPMSoft. Они перенесены в [`FACULTATIVES.md`](FACULTATIVES.md), куда также добавлен трек по AI-автоматизации.
 
 ## Структура
 
-- [`COURSE.md`](COURSE.md) — подробная программа по неделям;
-- [`CAPSTONE.md`](CAPSTONE.md) — итоговый сквозной проект;
-- [`SKILLS_MATRIX.md`](SKILLS_MATRIX.md) — матрица навыков Junior BA;
-- [`PROGRESS.md`](PROGRESS.md) — основной трекер;
-- [`data/progress.csv`](data/progress.csv) — данные для расчёта динамики;
-- [`templates/`](templates/) — шаблоны артефактов;
-- [`GitHub Issue template`](../../.github/ISSUE_TEMPLATE/junior-ba-module-progress.md) — шаблон отчёта по модулю.
+- [`COURSE.md`](COURSE.md) — детальная программа;
+- [`CAPSTONE.md`](CAPSTONE.md) — итоговый проект и структура портфолио;
+- [`FACULTATIVES.md`](FACULTATIVES.md) — Power BI, BPM/low-code и AI Automation;
+- [`SKILLS_MATRIX.md`](SKILLS_MATRIX.md) — матрица компетенций;
+- [`PROGRESS.md`](PROGRESS.md) — правила оценки;
+- [`data/progress.csv`](data/progress.csv) — трек динамики;
+- [`templates/`](templates/) — шаблоны аналитических артефактов.
