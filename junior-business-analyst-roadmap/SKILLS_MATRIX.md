@@ -1,33 +1,54 @@
-# Матрица навыков Junior Business Analyst
+# Матрица навыков Business/System Analyst
 
 Оценивайте каждый навык от 0 до 4:
 
 - **0** — не знаком;
-- **1** — понимаю термины;
+- **1** — понимаю термины и назначение;
 - **2** — выполняю по примеру;
-- **3** — выполняю самостоятельно и объясняю решение;
-- **4** — нахожу ошибки, сравниваю подходы и улучшаю результат.
+- **3** — выполняю самостоятельно и объясняю решения;
+- **4** — нахожу противоречия, сравниваю варианты и улучшаю результат.
 
-| Компетенция | Старт | Неделя 4 | Неделя 8 | Неделя 12 | Финал | Доказательство |
+Оценка 3 по учебному кейсу не означает подтверждённый production-уровень. В графе «Доказательство» указывается конкретный артефакт, commit, demo или проверенное задание.
+
+| Компетенция | Старт | Week 3 | Week 7 | Week 11 | Финал | Доказательство |
 |---|---:|---:|---:|---:|---:|---|
-| SDLC и роль BA | 0 |  |  |  |  |  |
-| Problem framing и scope | 0 |  |  |  |  |  |
-| Stakeholder analysis | 0 |  |  |  |  |  |
-| Elicitation | 0 |  |  |  |  |  |
-| BR/UR/FR/NFR | 0 |  |  |  |  |  |
-| Agile/Scrum/Kanban | 0 |  |  |  |  |  |
-| Epics/User Stories/AC | 0 |  |  |  |  |  |
-| Jira | 0 |  |  |  |  |  |
-| Confluence | 0 |  |  |  |  |  |
-| BPMN 2.0 | 0 |  |  |  |  |  |
-| Excel | 0 |  |  |  |  |  |
-| SQL SELECT/GROUP BY | 0 |  |  |  |  |  |
-| SQL JOIN | 0 |  |  |  |  |  |
-| Data modelling | 0 |  |  |  |  |  |
-| Power BI/DAX | 0 |  |  |  |  |  |
-| PowerPoint | 0 |  |  |  |  |  |
-| Project planning | 0 |  |  |  |  |  |
-| Low-code/BPM | 0 |  |  |  |  |  |
-| ELMA365/BPMSoft | 0 |  |  |  |  |  |
-| Traceability | 0 |  |  |  |  |  |
-| Presentation/interview | 0 |  |  |  |  |  |
+| Роль BA/SA в SDLC |  |  |  |  |  |  |
+| Problem framing, KPI и Scope |  |  |  |  |  |  |
+| Stakeholder analysis и RACI |  |  |  |  |  |  |
+| Requirements elicitation |  |  |  |  |  |  |
+| BR/SR/FR/NFR/Transition Requirements |  |  |  |  |  |  |
+| Requirement quality и change control |  |  |  |  |  |  |
+| Traceability Matrix |  |  |  |  |  |  |
+| User Stories и Acceptance Criteria |  |  |  |  |  |  |
+| UML Use Case |  |  |  |  |  |  |
+| Business Rules и Decision Tables |  |  |  |  |  |  |
+| UML State Machine |  |  |  |  |  |  |
+| BPMN AS-IS |  |  |  |  |  |  |
+| BPMN TO-BE, SLA и Exceptions |  |  |  |  |  |  |
+| System Boundary и System Context |  |  |  |  |  |  |
+| C4 Context/Container |  |  |  |  |  |  |
+| ADR и trade-offs |  |  |  |  |  |  |
+| ERD и Data Modelling |  |  |  |  |  |  |
+| Data Dictionary и CRUD Matrix |  |  |  |  |  |  |
+| SQL SELECT/GROUP BY |  |  |  |  |  |  |
+| SQL JOIN/CTE/Window Functions |  |  |  |  |  |  |
+| Data Quality и Reconciliation |  |  |  |  |  |  |
+| HTTP и REST semantics |  |  |  |  |  |  |
+| JSON Schema и OpenAPI |  |  |  |  |  |  |
+| Postman и API testing |  |  |  |  |  |  |
+| Webhooks и integration patterns |  |  |  |  |  |  |
+| UML Sequence Diagram |  |  |  |  |  |  |
+| Data Mapping и Canonical Model |  |  |  |  |  |  |
+| Timeout, Retry и Idempotency |  |  |  |  |  |  |
+| Error Handling и DLQ/manual queue |  |  |  |  |  |  |
+| NFR и Quality Attributes |  |  |  |  |  |  |
+| Security и RBAC |  |  |  |  |  |  |
+| Audit, Logging и Monitoring |  |  |  |  |  |  |
+| Test Cases и RTM coverage |  |  |  |  |  |  |
+| UAT |  |  |  |  |  |  |
+| Migration и Reconciliation |  |  |  |  |  |  |
+| Release и Rollback |  |  |  |  |  |  |
+| n8n/FastAPI/PostgreSQL prototype |  |  |  |  |  |  |
+| Jira/Confluence как сквозной контур |  |  |  |  |  |  |
+| Solution Design |  |  |  |  |  |  |
+| Защита проекта и system walkthrough |  |  |  |  |  |  |
