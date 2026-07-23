@@ -1,5 +1,7 @@
 # Трекер прогресса Business/System Analyst
 
+Активный план: **27 июля — 30 сентября 2026**, Week 0 + 9 основных недель.
+
 ## Статусы
 
 - `not-started` — работа не начата;
@@ -12,23 +14,16 @@
 
 | Week | Модуль | Статус | Часы | Знания /100 | Практика /100 | Артефакт /100 | Объяснение /100 | Ссылка |
 |---:|---|---|---:|---:|---:|---:|---:|---|
-| 0 | Диагностика и рабочий контур | in-progress | 0 | 0 | 0 | 0 | 0 |  |
-| 1 | Problem, Goals, KPI, Scope | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 2 | Stakeholders и Elicitation | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 3 | Requirements Engineering и RTM | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 4 | Stories, Use Cases, State Machine, Rules | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 5 | BPMN AS-IS | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 6 | BPMN TO-BE, SLA, Exceptions | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 7 | System Context и C4 | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 8 | ERD и Data Dictionary | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 9 | SQL Fundamentals | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 10 | SQL Advanced и Data Quality | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 11 | REST API, OpenAPI, Postman | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 12 | Integrations, Sequence, Mapping | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 13 | NFR, Security, Observability | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 14 | Testing, UAT, Migration, Release | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 15 | Automation Prototype | not-started | 0 | 0 | 0 | 0 | 0 |  |
-| 16 | Final Project and Interview | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 0 | Диагностика, SDLC, Jira и Confluence | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 1 | Problem, KPI, Scope, Stakeholders, Elicitation | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 2 | Requirements, RTM, Stories, Use Cases, Dev Task | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 3 | BPMN AS-IS/TO-BE, SLA, Exceptions, Access | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 4 | System Context, C4 и UML Architecture | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 5 | ERD, PostgreSQL, SQL Advanced, Data Quality | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 6 | REST, JSON/XML, OpenAPI, Postman, OAuth | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 7 | Integrations, Mapping, Kafka/RabbitMQ, Reliability | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 8 | NFR, Security, Linux/logs, Testing, UAT, Release | not-started | 0 | 0 | 0 | 0 | 0 |  |
+| 9 | Prototype, Delivery Metrics, Solution Design, Interview | not-started | 0 | 0 | 0 | 0 | 0 |  |
 
 ## Формула оценки
 
@@ -49,10 +44,10 @@ Weekly score = Knowledge × 0.25
 
 ## Checkpoints
 
-- **Checkpoint 1:** после Week 3 — problem, stakeholders, requirements, RTM.
-- **Checkpoint 2:** после Week 7 — behavior, BPMN, State Machine, System Context и C4.
-- **Checkpoint 3:** после Week 11 — ERD, SQL, Data Quality, REST API и Postman.
-- **Checkpoint 4:** после Week 16 — полное портфолио, Solution Design, prototype и mock interview.
+- **Checkpoint 1:** после Week 2 — problem, stakeholders, requirements, RTM, Jira и постановка разработчику.
+- **Checkpoint 2:** после Week 5 — BPMN, System Context, C4, UML, ERD и SQL.
+- **Checkpoint 3:** после Week 7 — REST, OpenAPI, OAuth, integrations, mapping и event-driven patterns.
+- **Final Checkpoint:** после Week 9 — NFR, testing, release, prototype, Solution Design, portfolio и mock interview.
 
 ## Еженедельная ретроспектива
 
